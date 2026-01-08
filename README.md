@@ -1,6 +1,8 @@
-# NATI System: Python Version - Figure Generation Scripts
+# FBNATI
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/Oxygen-Wang/FBNATI)
+
+## NATI System: Python Version - Figure Generation Scripts
 
 This folder contains Python scripts for generating NATI system figures 2-6.
 
@@ -95,4 +97,3 @@ python Fig6_PathDependent.py         # Generate Figure 6 (Path-dependent)
 - scipy >= 1.7.0
 - matplotlib >= 3.3.0
 - sympy >= 1.8.0
-
