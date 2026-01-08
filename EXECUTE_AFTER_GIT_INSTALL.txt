@@ -1,0 +1,50 @@
+========================================
+GitHub 上传命令序列
+========================================
+
+请先安装 Git: https://git-scm.com/download/win
+安装完成后，在 PowerShell 中执行以下命令：
+
+# 1. 进入 FBNATI1 目录
+cd "D:\OneDrive - bupt.edu.cn\paper\NATI20260104\FBNATI1"
+
+# 2. 配置 Git 用户信息
+git config --global user.name "Oxygen-Wang"
+git config --global user.email "653345983@qq.com"
+
+# 3. 初始化 Git 仓库
+git init
+
+# 4. 添加所有文件
+git add .
+
+# 5. 提交更改
+git commit -m "Initial commit: FBNATI Python version"
+
+# 6. 设置主分支为 main
+git branch -M main
+
+# 7. 添加远程仓库
+git remote remove origin
+git remote add origin https://github.com/Oxygen-Wang/FBNATI.git
+
+# 8. 推送到 GitHub
+git push -u origin main
+
+========================================
+重要提示：
+========================================
+
+推送时会要求输入：
+- 用户名: Oxygen-Wang
+- 密码: 使用 Personal Access Token（不是 GitHub 密码）
+
+如何获取 Personal Access Token:
+1. 登录 GitHub
+2. Settings → Developer settings → Personal access tokens → Tokens (classic)
+3. Generate new token (classic)
+4. 勾选 repo 权限
+5. 生成后复制 token（只显示一次）
+
+========================================
+
