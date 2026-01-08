@@ -45,7 +45,14 @@ Thumbs.db
 *.eps
 *.pdf
 
-# Data files (uncomment if you don't want to track data files)
-# *.mat
-# *.slx
+# Data files
+*.mat
+*.slx
+
+# Upload scripts and guides (not needed in repository)
+EXECUTE_AFTER_GIT_INSTALL.txt
+GITHUB_UPLOAD_GUIDE.md
+QUICK_START.md
+upload_to_github.bat
+upload_to_github.ps1
 
